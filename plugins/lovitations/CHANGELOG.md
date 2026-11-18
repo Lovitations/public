@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.0 — 2026-11-18
+
+Making your page now happens in one place in the chat: `start_wedding_website` opens the Lovitations start, which asks your names, date, photo and style and makes the page, instead of one question per message. The skills `wedding-website-copy` and `invitation-wording` call it. New tool `add_page_photo` for your own photo.
+
 ## 0.2.1 — 2026-11-18
 
 Listing fixes for the OpenAI plugin directory: a subtitle within 30 characters, the long description with real line breaks and a paragraph on limits, the support and terms of service URLs, the homepage as website. The icon's mark is larger, so it reads at small sizes. No skill or tool changed.
