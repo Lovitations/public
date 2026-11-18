@@ -1,0 +1,20 @@
+{
+  "name": "lovitations",
+  "interface": {
+    "displayName": "Lovitations"
+  },
+  "plugins": [
+    {
+      "name": "lovitations",
+      "source": {
+        "source": "local",
+        "path": "./plugins/lovitations"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Lifestyle"
+    }
+  ]
+}

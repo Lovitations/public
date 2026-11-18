@@ -1,0 +1,26 @@
+{
+  "name": "lovitations",
+  "displayName": "Lovitations",
+  "version": "0.1.0",
+  "description": "Wedding planning skills: invitation and save-the-date wording, wedding website copy, a guest list with day and evening guests, RSVP follow-up, seating plan, wedding day schedule, budget and speeches.",
+  "author": {
+    "name": "Lovitations",
+    "email": "info@lovitations.nl",
+    "url": "https://lovitations.nl"
+  },
+  "homepage": "https://lovitations.nl/gratis-bruiloft-tools",
+  "icon": "./assets/logo.png",
+  "documentationUrl": "https://lovitations.nl/gratis-bruiloft-tools",
+  "supportUrl": "https://lovitations.nl/contact",
+  "privacyPolicyUrl": "https://lovitations.nl/policies/privacy-policy",
+  "license": "MIT",
+  "keywords": [
+    "wedding",
+    "invitations",
+    "save-the-date",
+    "rsvp",
+    "guest-list",
+    "seating-plan",
+    "wedding-planning"
+  ]
+}
