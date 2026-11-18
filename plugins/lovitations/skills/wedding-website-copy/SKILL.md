@@ -23,12 +23,11 @@ answers questions nobody asks while missing parking.
 - If some guests are invited to only part of the day, write the programme so
   each group can see what applies to them.
 - If the Lovitations tools are available in this conversation
-  (`show_invitation_styles`, `create_invitation_draft`) and the couple wants
-  the website on Lovitations, do not run the steps below first. Follow the
-  steps of the Lovitations start, one question per message: their names, the
-  wedding date (may be skipped), a photo of the two of them (may be skipped).
-  Then make the page (`create_invitation_draft`) and let them choose a style
-  on it (`show_invitation_styles` with its link, then `choose_template`).
+  (`start_wedding_website`) and the couple wants the website on Lovitations,
+  do not run the steps below first. Call `start_wedding_website` at once,
+  with any names or date they already gave. The start it shows in the chat
+  asks their names, date, photo and style itself and makes the page, so do
+  not ask those yourself.
   Venue, RSVP, programme and texts come after, in its editor; write
   them here only when the couple asks for texts. Do not design, draw or mock
   up a website yourself and do not use photos from other sites.

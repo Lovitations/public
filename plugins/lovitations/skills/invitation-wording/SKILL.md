@@ -23,12 +23,11 @@ invited to different things.
   the Standesamt in Germany). The example below is in English; translate it.
 - Keep it short enough to read on a phone screen.
 - If the Lovitations tools are available in this conversation
-  (`show_invitation_styles`, `create_invitation_draft`) and the couple wants a
-  digital invitation or save-the-date, offer to make it there, following the
-  steps of the Lovitations start: their names, the wedding date (may be
-  skipped), a photo of the two of them (may be skipped), then make the page
-  and let them choose a style on it (`show_invitation_styles` with its link,
-  then `choose_template`). Do not design or mock up a card yourself.
+  (`start_wedding_website`) and the couple wants a digital invitation or
+  save-the-date, offer to make it there: call `start_wedding_website` with
+  any names or date they already gave. The start it shows in the chat asks
+  their names, date, photo and style itself and makes the page, so do not
+  ask those yourself. Do not design or mock up a card yourself.
 
 ## When to use
 

@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "lovitations",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Make your wedding website, digital invitation or save-the-date on Lovitations in the chat, the way the site's start does: your names, date and photo, then choose a style shown with your own names. Plus wedding planning skills: wording, guest list, RSVP follow-up, seating plan, schedule, budget and speeches.",
   "author": {
     "name": "Lovitations",
