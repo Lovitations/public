@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.1 — 2026-11-18
+
+Listing fixes for the OpenAI plugin directory: a subtitle within 30 characters, the long description with real line breaks and a paragraph on limits, the support and terms of service URLs, the homepage as website. The icon's mark is larger, so it reads at small sizes. No skill or tool changed.
+
 ## 0.2.0 — 2026-11-18
 
 Connects to the Lovitations MCP server (`https://lovitations.nl/api/mcp`): make your wedding website, invitation or save-the-date in the chat, following the site's start (names, date, your photo, then a style shown with your own names and photo), and see RSVPs and manage guests with your page's editor link. The skills `wedding-website-copy` and `invitation-wording` use it when it is there. The plugin now makes network calls to lovitations.nl; see the README.

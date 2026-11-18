@@ -1,13 +1,13 @@
 {
   "name": "lovitations",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Make your wedding website, digital invitation or save-the-date on Lovitations in the chat, the way the site's start does: your names, date and photo, then choose a style shown with your own names. Plus wedding planning skills: wording, guest list, RSVP follow-up, seating plan, schedule, budget and speeches.",
   "author": {
     "name": "Lovitations",
     "email": "info@lovitations.nl",
     "url": "https://lovitations.nl"
   },
-  "homepage": "https://lovitations.nl/gratis-bruiloft-tools",
+  "homepage": "https://lovitations.nl",
   "license": "MIT",
   "keywords": [
     "wedding",
@@ -21,15 +21,15 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Lovitations",
-    "shortDescription": "Your wedding website, in the chat",
-    "longDescription": "Lovitations makes digital save-the-dates, wedding invitations and wedding websites with a personal link per guest and a live RSVP overview.\\n\\n**Make your page in the chat.** The same start as on lovitations.nl: your names, your date and a photo of the two of you, then choose your style from the templates, each shown with your own names, date and photo. You get the link to your page and finish it in the Lovitations editor. Making and editing a page is free; you only pay when you publish it.\\n\\n**Manage it in the chat.** With your page's editor link (and its PIN, if you set one): who is coming, who has not answered, what to tell the caterer, and add or change guests.\\n\\n**Plan the wedding.** Invitation wording, website texts, a guest list with day and evening guests, RSVP follow-up, a seating plan, a schedule for the day, a budget and speeches, in your language.\\n\\nNothing is sent to your guests: you share the links yourself.",
+    "shortDescription": "Your wedding website in chat",
+    "longDescription": "Lovitations makes digital save-the-dates, wedding invitations and wedding websites for couples marrying in the Netherlands, with a personal link for every guest and a live RSVP overview.\n\n**Make your page in the chat.** The same start as on lovitations.nl: your names, your wedding date and a photo of the two of you. Then choose your style from the Lovitations templates, each shown with your own names, date and photo. You get the link to your page and finish it in the Lovitations editor.\n\n**Manage it in the chat.** With your page's editor link (and its PIN, if you set one): see who is coming and who has not answered yet, get the numbers for the caterer, and add or change guests.\n\n**Plan the wedding.** A first budget from the Lovitations 2026 Dutch wedding cost model, and help with invitation wording, website texts, a guest list with day and evening guests, a seating plan, a schedule for the day and speeches, in your language.\n\n**Good to know.** Nothing is sent to your guests: you share their links yourself. The venue, programme, RSVP questions and colours are set in the Lovitations editor, not in the chat. Managing a page needs its editor link, so keep that link private or protect the page with a PIN. Lovitations and its cost model are made for weddings in the Netherlands.",
     "developerName": "Lovitations",
     "category": "Lifestyle",
     "capabilities": [
       "Read",
       "Write"
     ],
-    "websiteURL": "https://lovitations.nl/gratis-bruiloft-tools",
+    "websiteURL": "https://lovitations.nl",
     "supportURL": "https://lovitations.nl/contact",
     "privacyPolicyURL": "https://lovitations.nl/policies/privacy-policy",
     "defaultPrompt": [
@@ -39,7 +39,8 @@
     ],
     "brandColor": "#E39478",
     "composerIcon": "./assets/logo.png",
-    "logo": "./assets/logo.png"
+    "logo": "./assets/logo.png",
+    "termsOfServiceURL": "https://lovitations.nl/policies/algemene-voorwaarden"
   },
   "mcpServers": "./.mcp.json"
 }

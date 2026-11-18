@@ -1,16 +1,16 @@
 {
   "name": "lovitations",
   "displayName": "Lovitations",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Make your wedding website, digital invitation or save-the-date on Lovitations in the chat, the way the site's start does: your names, date and photo, then choose a style shown with your own names. Plus wedding planning skills: wording, guest list, RSVP follow-up, seating plan, schedule, budget and speeches.",
   "author": {
     "name": "Lovitations",
     "email": "info@lovitations.nl",
     "url": "https://lovitations.nl"
   },
-  "homepage": "https://lovitations.nl/gratis-bruiloft-tools",
+  "homepage": "https://lovitations.nl",
   "icon": "./assets/logo.png",
-  "documentationUrl": "https://lovitations.nl/gratis-bruiloft-tools",
+  "documentationUrl": "https://lovitations.nl",
   "supportUrl": "https://lovitations.nl/contact",
   "privacyPolicyUrl": "https://lovitations.nl/policies/privacy-policy",
   "license": "MIT",
