@@ -2,7 +2,7 @@
 
 ## 0.3.0 — 2026-11-18
 
-Making your page now happens in one place in the chat: `start_wedding_website` opens the Lovitations start, which asks your names, date, photo and style and makes the page, instead of one question per message. The skills `wedding-website-copy` and `invitation-wording` call it. New tool `add_page_photo` for your own photo.
+Making your page now happens in one place in the chat: `start_wedding_website` opens the Lovitations start, which asks your names, date, photo and style and makes the page, instead of one question per message. The skills `wedding-website-copy` and `invitation-wording` call it. New tools `make_wedding_page` and `add_page_photo`, which the start uses to make the page and add your own photo.
 
 ## 0.2.1 — 2026-11-18
 

@@ -13,7 +13,8 @@ The plugin connects to the Lovitations server at `https://lovitations.nl/api/mcp
 | Tool | What it does |
 |---|---|
 | `start_wedding_website` | Opens the Lovitations start in the chat: your names, your date, a photo of the two of you and your style. It makes your page and puts the style on it. Free; you only pay when you publish. |
-| `create_invitation_draft`, `add_page_photo`, `show_invitation_styles`, `choose_template` | The same steps one by one, used by the start and by chats that cannot show it: make the page, add your photo, show the templates with your own names, date and photo, and put the one you choose on your page. |
+| `make_wedding_page`, `add_page_photo`, `choose_template` | The steps the start takes for you: make the page, add your photo and put the style you choose on your page. |
+| `create_invitation_draft`, `show_invitation_styles` | The same start one step at a time, for chats that cannot show it: make the page, then show the templates with your own names, date and photo. |
 | `protect_page_with_pin` | Protects your page with a PIN you choose. It can never change or remove one. |
 | `get_rsvp_summary`, `list_rsvp_answers`, `list_guests`, `add_guests`, `update_guest`, `remove_guest` | Who is coming and your guest list, with your page's editor link (and its PIN, if it has one). |
 | `estimate_wedding_costs` | A first budget from the Lovitations 2026 Dutch wedding cost model. |
