@@ -1,8 +1,28 @@
 # Lovitations
 
-Skills for the paperwork of a wedding: the words, the guests and the day.
-They work in Claude (the Claude app and Claude Code), ChatGPT and Codex,
-Gemini CLI and Grok Build.
+Make your wedding website, digital invitation or save-the-date on
+[Lovitations](https://lovitations.nl) in the chat, and get help with the
+paperwork of a wedding: the words, the guests and the day. Works in Claude
+(the Claude app and Claude Code), ChatGPT and Codex, Gemini CLI and Grok
+Build.
+
+## Your page, in the chat
+
+The plugin connects to the Lovitations server at `https://lovitations.nl/api/mcp`.
+
+| Tool | What it does |
+|---|---|
+| `create_invitation_draft` | Makes your page, the way the site's start does: your names, your date and a photo of the two of you. Free; you only pay when you publish. |
+| `show_invitation_styles` | The Lovitations templates, each shown with your own names, date and photo. |
+| `choose_template` | Puts the style you choose on your new page. |
+| `protect_page_with_pin` | Protects your page with a PIN you choose. It can never change or remove one. |
+| `get_rsvp_summary`, `list_rsvp_answers`, `list_guests`, `add_guests`, `update_guest`, `remove_guest` | Who is coming and your guest list, with your page's editor link (and its PIN, if it has one). |
+| `estimate_wedding_costs` | A first budget from the Lovitations 2026 Dutch wedding cost model. |
+
+In ChatGPT and Claude the styles, your new page, the costs and your RSVPs
+show as cards in the chat.
+
+## Skills
 
 | Area | Skill | What it does |
 |---|---|---|
@@ -33,7 +53,7 @@ evening guests do we have" or "maak een draaiboek voor onze trouwdag".
 The skills answer in the language you write in (Dutch, English, Spanish,
 German or any other) and follow the customs of the country you marry in.
 
-## What these skills do and do not do
+## What the plugin does and does not do
 
 - **They work from what you give them** in the conversation: lists, quotes,
   notes, replies, spreadsheets. They don't search your mail or files on their
@@ -46,9 +66,14 @@ German or any other) and follow the customs of the country you marry in.
 - **They ask before creating or changing a file**, and only where the
   environment allows it. A spreadsheet you share is left as it is; a new
   version is saved as a new file.
-- **No network calls, no data collection, no credentials.** The plugin is
-  plain instructions. Your data goes only where your Claude or ChatGPT setup
-  already sends it.
+- **What goes to Lovitations.** The tools send what they need to
+  lovitations.nl: your names, date and photo when you make a page, and your
+  page's editor link and PIN when you manage it. That is the same as using
+  the site, under the [privacy statement](https://lovitations.nl/policies/privacy-policy).
+  The skills alone send nothing anywhere.
+- **Nothing is sent to your guests.** You share their links yourself.
+- **No account needed.** Your page's editor link is its key: keep it
+  private, or protect the page with a PIN.
 
 ## Optional tools
 

@@ -22,6 +22,13 @@ invited to different things.
   Netherlands, the gift account line common in Spain, the civil ceremony at
   the Standesamt in Germany). The example below is in English; translate it.
 - Keep it short enough to read on a phone screen.
+- If the Lovitations tools are available in this conversation
+  (`show_invitation_styles`, `create_invitation_draft`) and the couple wants a
+  digital invitation or save-the-date, offer to make it there, following the
+  steps of the Lovitations start: their names, the wedding date (may be
+  skipped), a photo of the two of them (may be skipped), then make the page
+  and let them choose a style on it (`show_invitation_styles` with its link,
+  then `choose_template`). Do not design or mock up a card yourself.
 
 ## When to use
 

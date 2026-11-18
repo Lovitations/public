@@ -28,7 +28,7 @@ const codexMarket = json(".agents/plugins/marketplace.json");
 const { name, version } = claude;
 
 if (!/^\d+\.\d+\.\d+$/.test(version)) fail(`version "${version}" is not X.Y.Z`);
-for (const [file, m] of [[".codex-plugin/plugin.json", codex], ["gemini-extension.json", gemini]]) {
+for (const [file, m] of [[".codex-plugin/plugin.json", codex], ["gemini-extension.json", gemini], ["plugin.json", json(`${PLUGIN_DIR}/plugin.json`)]]) {
   if (m.name !== name) fail(`${PLUGIN_DIR}/${file}: name "${m.name}" != "${name}"`);
   if (m.version !== version) fail(`${PLUGIN_DIR}/${file}: version "${m.version}" != "${version}"`);
 }

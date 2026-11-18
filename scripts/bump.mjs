@@ -20,7 +20,7 @@ const update = (file, fn) => {
 };
 const name = JSON.parse(readFileSync(join(root, PLUGIN_DIR, ".claude-plugin/plugin.json"), "utf8")).name;
 
-for (const file of [".claude-plugin/plugin.json", ".codex-plugin/plugin.json", "gemini-extension.json"])
+for (const file of [".claude-plugin/plugin.json", ".codex-plugin/plugin.json", "gemini-extension.json", "plugin.json"])
   update(`${PLUGIN_DIR}/${file}`, (m) => { m.version = version; });
 update(".claude-plugin/marketplace.json", (m) => {
   for (const p of m.plugins) if (p.name === name) p.version = version;

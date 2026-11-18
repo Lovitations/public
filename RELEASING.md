@@ -8,9 +8,9 @@ JSON, YAML and PNG/JPEG/GIF/WebP/ICO images (no SVG, nothing starting with
 that for the plugin folder. The Claude directory submission must use
 `plugins/lovitations` as its plugin path, not the repo root.
 
-One version number lives in five places, all under the plugin folder except
+One version number lives in six places, all under the plugin folder except
 the marketplace: `.claude-plugin/plugin.json`, `.codex-plugin/plugin.json`,
-`gemini-extension.json`, a `## X.Y.Z` section in `CHANGELOG.md`, and the
+`plugin.json` (the portable manifest ChatGPT reads), `gemini-extension.json`, a `## X.Y.Z` section in `CHANGELOG.md`, and the
 entry in the repo-root `.claude-plugin/marketplace.json`.
 `scripts/check.mjs` fails CI when they disagree.
 

@@ -1,7 +1,7 @@
 {
   "name": "lovitations",
-  "version": "0.1.0",
-  "description": "Wedding planning skills: invitation and save-the-date wording, wedding website copy, a guest list with day and evening guests, RSVP follow-up, seating plan, wedding day schedule, budget and speeches.",
+  "version": "0.2.0",
+  "description": "Make your wedding website, digital invitation or save-the-date on Lovitations in the chat, the way the site's start does: your names, date and photo, then choose a style shown with your own names. Plus wedding planning skills: wording, guest list, RSVP follow-up, seating plan, schedule, budget and speeches.",
   "author": {
     "name": "Lovitations",
     "email": "info@lovitations.nl",
@@ -21,21 +21,25 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Lovitations",
-    "shortDescription": "Invitations, guests, RSVP, the day",
-    "longDescription": "Lovitations: skills for the paperwork of a wedding, the part that lands on the couple between the proposal and the party.\n\n**Words.** Write the save-the-date and invitation text, with separate versions for day and evening guests. Write the pages of a wedding website: your story, the programme, travel, dress code, gifts and FAQ. Write a speech or toast that sounds like the person giving it.\n\n**Guests.** Build or clean up a guest list with day and evening guests, plus-ones, children and dietary needs, and real headcounts. Read RSVP replies: who is coming, who hasn't answered, what the caterer needs to know, with reminder drafts. Draft a seating plan that keeps the right people together and the wrong ones apart.\n\n**The day.** Build a minute-by-minute schedule for the day with buffers and who does what, and a budget with real formulas that shows where the money goes.\n\nThe skills work from what you share in the conversation and mark anything that is missing instead of making it up. Messages come back as drafts for you to send, and the skills ask before they create a file. They answer in your language and follow the customs of the country you marry in.",
+    "shortDescription": "Your wedding website, in the chat",
+    "longDescription": "Lovitations makes digital save-the-dates, wedding invitations and wedding websites with a personal link per guest and a live RSVP overview.\\n\\n**Make your page in the chat.** The same start as on lovitations.nl: your names, your date and a photo of the two of you, then choose your style from the templates, each shown with your own names, date and photo. You get the link to your page and finish it in the Lovitations editor. Making and editing a page is free; you only pay when you publish it.\\n\\n**Manage it in the chat.** With your page's editor link (and its PIN, if you set one): who is coming, who has not answered, what to tell the caterer, and add or change guests.\\n\\n**Plan the wedding.** Invitation wording, website texts, a guest list with day and evening guests, RSVP follow-up, a seating plan, a schedule for the day, a budget and speeches, in your language.\\n\\nNothing is sent to your guests: you share the links yourself.",
     "developerName": "Lovitations",
     "category": "Lifestyle",
-    "capabilities": [],
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
     "websiteURL": "https://lovitations.nl/gratis-bruiloft-tools",
     "supportURL": "https://lovitations.nl/contact",
     "privacyPolicyURL": "https://lovitations.nl/policies/privacy-policy",
     "defaultPrompt": [
-      "Write the text for our wedding invitation, with a version for evening guests.",
-      "Here's our guest list. How many day and evening guests do we have?",
-      "Make a schedule for our wedding day, ceremony at 14:00."
+      "I want to make our wedding website on Lovitations.",
+      "How many guests have answered our invitation so far?",
+      "What does a wedding with 50 day guests and 100 evening guests cost?"
     ],
     "brandColor": "#E39478",
     "composerIcon": "./assets/logo.png",
     "logo": "./assets/logo.png"
-  }
+  },
+  "mcpServers": "./.mcp.json"
 }

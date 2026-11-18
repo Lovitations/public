@@ -1,8 +1,8 @@
 {
   "name": "lovitations",
   "displayName": "Lovitations",
-  "version": "0.1.0",
-  "description": "Wedding planning skills: invitation and save-the-date wording, wedding website copy, a guest list with day and evening guests, RSVP follow-up, seating plan, wedding day schedule, budget and speeches.",
+  "version": "0.2.0",
+  "description": "Make your wedding website, digital invitation or save-the-date on Lovitations in the chat, the way the site's start does: your names, date and photo, then choose a style shown with your own names. Plus wedding planning skills: wording, guest list, RSVP follow-up, seating plan, schedule, budget and speeches.",
   "author": {
     "name": "Lovitations",
     "email": "info@lovitations.nl",
@@ -15,12 +15,14 @@
   "privacyPolicyUrl": "https://lovitations.nl/policies/privacy-policy",
   "license": "MIT",
   "keywords": [
-    "wedding",
-    "invitations",
-    "save-the-date",
-    "rsvp",
     "guest-list",
+    "invitations",
+    "mcp",
+    "rsvp",
+    "save-the-date",
     "seating-plan",
-    "wedding-planning"
+    "wedding",
+    "wedding-planning",
+    "wedding-website"
   ]
 }
